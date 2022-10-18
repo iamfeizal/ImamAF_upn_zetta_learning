@@ -4,8 +4,8 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Profile Imam Agus Faisal</title>
 </head>
-<body style="padding: 100px; text-align: center; background-color: black;">
-    <div class="main" style="width: auto; height: auto; background-color: white; border: 1px solid #eeeeee; margin: auto; padding: 50px; border-radius: 15px;">
+<body style="padding: 100px; background-color: black;">
+    <div class="card-1" style="width: 625px; height: auto; background-color: white; border: 1px solid #eeeeee; margin: auto; padding: 50px; border-radius: 15px; text-align: center;">
         <div class="profile-img" style="background-image: url(assets/images/profile.png); background-color: #eaeaea; background-size: cover; width: 150px; height: 200px; margin: auto;"
         ></div>
         <h1>Imam Agus Faisal</h1>
@@ -40,6 +40,62 @@
                 </td>
             </tr>
         </table>
+        <h3>Multimedia</h3>
+        <p style="text-align: left; margin-left: 30px;"><strong>Stable Ronaldo Vibe</strong></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/f64XgfaLWS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://archive.org/embed/Payphone" width="500" height="140" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+    </div>
+    <div style="height: 50px;"></div>
+    <div class="card-2" style="width: 625px; height: auto; background-color: white; border: 1px solid #eeeeee; margin: auto; padding: 50px; border-radius: 15px;">
+        <h2 style="text-align: center;">FORM</h2>
+        <form action="" method="">
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td>Last Name</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="firstName" placeholder="Your first name" /></td>
+                        <td><input type="text" name="lastName" placeholder="Your last name" /></td>
+                    </tr>
+                </table>
+            <p>
+                <span>Description<br></span>
+                <textarea name="description" id="description" cols="45" rows="5"></textarea>
+            </p>
+            <p>
+                <span>Gender<br></span>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </p>
+            <table style="width: 100%;">
+                <tr>
+                    <td>Email</td>
+                    <td>Telephone</td>
+                </tr>
+                <tr>
+                    <td><input type="email" name="email" placeholder="Your email" /></td>
+                    <td><input type="tel" name="telephone" placeholder="Your telephone number" /></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>Website/Social Media</td>
+                </tr>
+                <tr>
+                    <td><input type="number" name="age" placeholder="Your age" /></td>
+                    <td><input type="url" name="website" placeholder="Your website/social media" /></td>
+                </tr>
+            </table>
+            <p>
+                <span>Favorite Color<br></span>
+                <input type="color" name="favColor" id="favColor">
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Send" />
+            </p>
+            </fieldset>
+        </form>
     </div>
 </body>
 </html>
