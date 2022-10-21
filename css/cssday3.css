@@ -1,0 +1,31 @@
+body{
+    padding: 10px;
+    background-color: #efebe9;
+}
+.card-parent{
+    width: 700px;
+    height: auto;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.title{
+    width: 100%;
+}
+.row-card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card-detail{
+    width: 30%;
+    height: auto;
+    background-color: #bbb;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
