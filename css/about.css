@@ -15,25 +15,15 @@ body {
 .title {
   width: 100%;
 }
-.row-card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+p {
+  text-align: left;
 }
-.card-detail {
-  width: 30%;
-  height: auto;
-  background-color: #bbb;
-  margin: auto;
-  padding: 10px;
-  border-radius: 15px;
-  text-align: center;
+p::first-letter {
+  font-weight: 800;
+  font-size: 50px;
 }
 p::first-line {
   color: #7b38d8;
-  font-weight: bold;
 }
 p::selection {
   color: white;
