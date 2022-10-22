@@ -1,0 +1,65 @@
+@viewport {
+  width: device-width;
+  zoom: 1.1;
+  min-zoom: 0.4;
+  max-zoom: 20;
+  user-zoom: fixed;
+}
+body {
+  background-color: #efebe9;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.card-parent {
+  width: 700px;
+  height: auto;
+  background-color: white;
+  border: 1px solid #eeeeee;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+header {
+  position: fixed;
+  width: 700px;
+  height: auto;
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+main {
+  padding-top: 80px;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card-detail {
+  width: 25%;
+  height: auto;
+  background-color: #bbb;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
+p::first-line {
+  color: #7b38d8;
+  font-weight: bold;
+}
+p::selection {
+  color: white;
+  background-color: black;
+}
