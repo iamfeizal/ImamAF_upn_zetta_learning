@@ -1,4 +1,4 @@
-function priceCalculator(book, discount, tax, stock, amount_purchase) {
+function priceCalculator(book, discount, tax, stock, amount_purchase, credit) {
     if (book && book.price) {
         const print = book.printing_status;
         const price = book.price;
@@ -9,6 +9,7 @@ function priceCalculator(book, discount, tax, stock, amount_purchase) {
         const priceAfterTax = priceAfterDiscount + totalTax;
         let total = 0;
         let total_book = 0;
+
         for (let i = 0; i < amount_purchase; i++) {
             stock -= 1;
             total_book += 1;
@@ -33,8 +34,21 @@ function priceCalculator(book, discount, tax, stock, amount_purchase) {
                 console.log(title, 'Book CAN be Purchased Again')
             }
             console.log('STOCK:', stock);
+            console.log('========= CREDIT =========');
         }
+        let creditPerMonth = total / credit;
+        let creditToPay = [];
+        let i = 0;
+      
+        while (i < credit) {
+          creditToPay.push({
+            cicilan_ke: i + 1,
+            pembayaran: creditPerMonth,
+          });
+          i++;
+        }
+        console.log(Array.from(creditToPay));
     }
 }
 
-let finalPrice = priceCalculator({title: 'Harpot', price:10000, printing_status: true}, 10, 10, 10, 5)
+let finalPrice = priceCalculator({title: 'Bacaan ABC', price:10000, printing_status: true}, 10, 10, 10, 5, 5)
