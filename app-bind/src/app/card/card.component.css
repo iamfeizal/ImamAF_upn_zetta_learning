@@ -6,10 +6,12 @@
   padding: 10px;
 }
 
+/*
 .offline {
   color: red;
   font-weight: bold;
 }
+*/
 
 .online {
   color: blue;

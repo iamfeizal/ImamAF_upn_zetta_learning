@@ -3,7 +3,7 @@
     <div class="card-body">
       <h5 class="card-title">{{ user[0] }}</h5>
       <p class="card-text">Status:</p>
-      <p [ngClass]="{ online: currentStatus1 === 'online' }">
+      <p [ngClass]="{ online: currentStatus1 === 'offline' }">
         {{ currentStatus1 }}
       </p>
       <button class="btn btn-primary" (click)="changeStatus1()">
