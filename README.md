@@ -14,11 +14,11 @@
     Setelah ngAfterContentChecked
 4.  Kapan Angular memanggil ngOnChange?
     Jika terdapat perubahan input, dipanggil sebelum ngOnInit
-5.  Ada skenario di mana Anda memuat ulang halaman yang berisi tabel, paginator, dan daftar yang dapat Anda klik untuk mengubah konten di halaman, lalu Anda mengklik daftar lain. Urutkan kemungkinan LifeCycle Hooks yang dipanggil dalam skenario?
-    a. ngOnChanges<br />
-    b. ngOnInit<br />
-    c. ngDoCheck<br />
-    d. ngAfterContentInit<br />
-    e. ngAfterContentChecked<br />
-    f. ngAfterViewInit<br />
-    g. ngAfterViewChecked
+5.  Ada skenario di mana Anda memuat ulang halaman yang berisi tabel, paginator, dan daftar yang dapat Anda klik untuk mengubah konten di halaman, lalu Anda mengklik daftar lain. Urutkan kemungkinan LifeCycle Hooks yang dipanggil dalam skenario? <br />
+    \ta. ngOnChanges<br />
+    \tb. ngOnInit<br />
+    \tc. ngDoCheck<br />
+    \td. ngAfterContentInit<br />
+    \te. ngAfterContentChecked<br />
+    /tf. ngAfterViewInit<br />
+    \tg. ngAfterViewChecked
