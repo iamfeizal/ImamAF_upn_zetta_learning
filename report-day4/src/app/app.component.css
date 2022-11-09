@@ -1,0 +1,14 @@
+h1 {
+  color: aqua;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
