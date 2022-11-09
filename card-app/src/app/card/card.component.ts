@@ -17,33 +17,20 @@ export class CardComponent implements OnInit, OnChanges, DoCheck, AfterContentCh
   constructor() {}
 
   ngOnInit(): void {
-    // console.log('ngOnInit Called!');
-    // console.log('Text : ' + this.header.nativeElement.textContent);
   }
   ngOnChanges(changes: SimpleChanges): void {
-    // console.log('ngOnChanges Called!');
-    // console.log(changes);
   }
   changeItemStatus() {
-    // if (this.items.itemStatus === 'Good') {
-    // }
   }
   ngDoCheck() {
-    // console.log('ngDoCheck Called');
   }
   ngAfterContentInit(): void {
-    // console.log('ngAfterContentInit Called!');
-    // console.log('Text : ' + this.header.nativeElement.textContent);
   }
   ngAfterViewInit(): void {
-    // console.log('ngAfterViewInit Called!');
-    // console.log('Text : ' + this.header.nativeElement.textContent);
   }
   ngAfterContentChecked(): void {
-    // console.log('ngAfterContentChecked called!');
   }
   ngOnDestroy(): void {
-    // console.log('ngOnDestroyCalled');
   }
 
 }
