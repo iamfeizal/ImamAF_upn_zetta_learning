@@ -1,0 +1,36 @@
+h1 {
+  color: rgb(127, 7, 182);
+  text-align: center;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+#perfect {
+  margin: 8px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+}
+
+#good {
+  margin: 8px;
+  color: green;
+  background-color: yellow;
+}
+
+#broken {
+  margin: 8px;
+  font-style: italic;
+  text-decoration: underline;
+  color: white;
+  background-color: red;
+}

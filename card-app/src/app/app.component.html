@@ -1,0 +1,32 @@
+<h1>CARD LIST</h1>
+<div class="content">
+  <app-input></app-input>
+  <hr />
+  <div>
+    <h2>Change All Items Status</h2>
+    <button (click)="changeAllStatus('Perfect')" class="btn" id="perfect">
+      Perfect
+    </button>
+    <button (click)="changeAllStatus('Good')" class="btn" id="good">
+      Good
+    </button>
+    <button (click)="changeAllStatus('Broken')" class="btn" id="broken">
+      Broken
+    </button>
+  </div>
+  <div class="flex-container">
+    <app-card
+      *ngFor="let list of itemList; index as i"
+      [items]="list"
+      [status]="list.itemStatus"
+    >
+      <hr />
+      <button mat-raised-button color="primary" (click)="destroyItem(i)">
+        Hapus
+      </button>
+      <button mat-raised-button color="warn" (click)="updateStatus(i)">
+        Ganti Status
+      </button>
+    </app-card>
+  </div>
+</div>

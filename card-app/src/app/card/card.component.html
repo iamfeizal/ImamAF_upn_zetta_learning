@@ -1,0 +1,17 @@
+<div class="panel panel-default">
+  <div class="panel-heading" #heading>
+    <h3>{{ items.itemName }}</h3>
+  </div>
+  <div class="panel-body">
+    <p class="card-text" id="perfect" *ngIf="status === 'Perfect'">
+      {{ items.itemStatus }}
+    </p>
+    <p class="card-text" id="good" *ngIf="status === 'Good'">
+      {{ items.itemStatus }}
+    </p>
+    <p class="card-text" id="broken" *ngIf="status === 'Broken'">
+      {{ items.itemStatus }}
+    </p>
+    <ng-content></ng-content>
+  </div>
+</div>
