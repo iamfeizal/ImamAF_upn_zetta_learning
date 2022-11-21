@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Contoh 1",
+      "content": "kontent 1"
+    },
+    {
+      "id": 2,
+      "title": "Contoh 2",
+      "content": "kontent 2"
+    },
+    {
+      "id": 3,
+      "title": "Contoh 3",
+      "content": "isi kontent 3"
+    },
+    {
+      "id": 4,
+      "title": "Contoh 4",
+      "content": "isi konten 4"
+    },
+    {
+      "id": 5,
+      "title": "Contoh 5",
+      "content": "isi konten 5"
+    },
+    {
+      "id": 6,
+      "title": "Contoh 6",
+      "content": "isi kontent 6"
+    },
+    {
+      "id": 7,
+      "title": "Contoh 7",
+      "content": "isi kontent 7"
+    },
+    {
+      "id": 8,
+      "title": "Contoh 8",
+      "content": "isi kontent 8"
+    },
+    {
+      "id": 9,
+      "title": "Contoh 9",
+      "content": "isi kontent 9"
+    },
+    {
+      "id": 10,
+      "title": "Contoh 10",
+      "content": "isi kontent 10"
+    }
+  ],
+  "profile": {
+    "name": "Cek"
+  }
+}
