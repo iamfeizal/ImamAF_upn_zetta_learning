@@ -13,6 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from './module/module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FilterPipe } from './filter.pipe';
+import { DataService } from './services/data.service';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     UserInputComponent,
     UserEditComponent,
     HomeComponent,
+    FilterPipe,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MaterialModule,
     BrowserAnimationsModule,
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

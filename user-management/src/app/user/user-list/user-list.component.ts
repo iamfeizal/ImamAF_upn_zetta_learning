@@ -4,12 +4,13 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-user-list',
   templateUrl: './user-list.component.html',
-  styleUrls: ['./user-list.component.scss'],
+  styleUrls: ['./user-list.component.css'],
 })
 export class UserListComponent implements OnInit {
   constructor(private dataService: DataService, private router: Router) {}
   detail: boolean[] = [];
   userlist: any[] = [];
+  usersearch: any = '';
   ngOnInit(): void {
     this.userlist = this.dataService.data;
     this.detail = this.dataService.detail;
