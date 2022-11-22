@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "_id": "1",
+      "email": "cek email",
+      "civility": "cek",
+      "first_name": "cek first",
+      "last_name": "cek last",
+      "company": {
+        "name": "cek company",
+        "user_type": "cek type"
+      },
+      "user_status": "cek statsus",
+      "count_document": 1
+    },
+    {
+      "_id": "2",
+      "email": "cek email",
+      "civility": "cek",
+      "first_name": "cek first",
+      "last_name": "cek last",
+      "company": {
+        "name": "cek company",
+        "user_type": "cek type"
+      },
+      "user_status": "cek statsus",
+      "count_document": 1
+    },
+    {
+      "_id": "3",
+      "email": "cek email",
+      "civility": "cek",
+      "first_name": "cek first",
+      "last_name": "cek last",
+      "company": {
+        "name": "cek company",
+        "user_type": "cek type"
+      },
+      "user_status": "cek statsus",
+      "count_document": 1
+    }
+  ],
+  "second": [
+    {
+      "civility": "cek2",
+      "first_name": "cek2 fisrt",
+      "last_name": "cek2 last",
+      "dob": "2002-01-16T17:00:00.000Z",
+      "gender": "cek2 gender",
+      "status": "cek2 status",
+      "id": 1
+    }
+  ]
+}
